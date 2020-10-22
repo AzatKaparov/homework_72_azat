@@ -14,10 +14,7 @@ from django.conf import settings
 
 from accounts.forms import MyUserCreationForm, UserChangeForm, ProfileChangeForm, \
     PasswordChangeForm, PasswordResetEmailForm, PasswordResetForm
-from webapp.models import Cart
 from .models import AuthToken, Profile
-
-
 
 
 class RegisterView(CreateView):
