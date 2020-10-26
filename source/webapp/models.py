@@ -26,6 +26,10 @@ class Quote(models.Model):
         verbose_name_plural = 'Цитаты'
         ordering = ['-created_at', ]
 
+    @classmethod
+    def get_moderated(cls):
+        return cls.objects.filter(status=STATUS_MODERATED)
+
     def __str__(self):
         return f'{self.author}, {self.text[:20]}...'
 

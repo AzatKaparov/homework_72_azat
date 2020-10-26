@@ -1,0 +1,34 @@
+.quote {
+    border: solid 2px royalblue;
+    border-radius: 10px;
+}
+
+.author {
+    color: royalblue;
+}
+
+.email {
+    background-color: #dc3545;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.text {
+    color: royalblue;
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.rating {
+    background-color: royalblue;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 5px;
+}
+
+.date {
+    background-color: royalblue;
+    display: inline-block;
+    padding: 5px;
+    color: whitesmoke;
+}

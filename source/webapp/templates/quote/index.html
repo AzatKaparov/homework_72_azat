@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}Hello{% endblock %}
+
+{% block content %}
+    <h1 style="text-align: center">Цитатник</h1>
+    <div class="container" id="container">
+    </div>
+    {% block scripts %}
+        <script type="application/javascript" src="{% static "js/main.js" %}"></script>
+    {% endblock %}
+
+{% endblock %}
